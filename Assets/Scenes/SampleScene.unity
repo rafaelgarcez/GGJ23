@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 1057150598}
   nodeImage: {fileID: 532778443}
   imageTransform: {fileID: 532778441}
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
   nodeButton: {fileID: 212352694}
   nodeImage: {fileID: 427847496}
   imageTransform: {fileID: 427847494}
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 953226821}
   nodeImage: {fileID: 419133521}
   imageTransform: {fileID: 419133519}
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 1760946552}
   nodeImage: {fileID: 851911636}
   imageTransform: {fileID: 851911635}
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 382b2422769190d498659a8469c6a68a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -747,7 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: c8e4ce1e05139464eae109fbb1582713, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 1002244963}
   nodeImage: {fileID: 2125511229}
   imageTransform: {fileID: 2125511227}
@@ -1497,7 +1497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2050,7 +2050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2861,7 +2861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rock: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeController: {fileID: 1758900793}
-  levelInfo: {fileID: 11400000, guid: 368e52e85cf31da458a8d7a480ee77e4, type: 2}
+  levelInfo: {fileID: 11400000, guid: 725d4345f658abe4b8bcbd5d55591223, type: 2}
 --- !u!1 &395354167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,7 +3010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 682261420}
   nodeImage: {fileID: 813060920}
   imageTransform: {fileID: 813060918}
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3787,7 +3787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6dda5c5f8834364899089588b31811b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3828,7 +3828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 335559353}
   nodeImage: {fileID: 1087602451}
   imageTransform: {fileID: 1087602449}
@@ -4071,7 +4071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42adea36a1195db40a54fb930ba2b1d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4301,7 +4301,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4703,7 +4703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4863,7 +4863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6177,7 +6177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
   nodeButton: {fileID: 643439089}
   nodeImage: {fileID: 291667752}
   imageTransform: {fileID: 291667750}
@@ -6919,7 +6919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6dda5c5f8834364899089588b31811b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7150,7 +7150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
   nodeButton: {fileID: 2077655735}
   nodeImage: {fileID: 1018908524}
   imageTransform: {fileID: 1018908523}
@@ -7212,7 +7212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 1831549362}
   nodeImage: {fileID: 1164701989}
   imageTransform: {fileID: 1164701988}
@@ -7252,7 +7252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 1220438992}
   nodeImage: {fileID: 2023478664}
   imageTransform: {fileID: 2023478662}
@@ -7448,7 +7448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: b0d06bfbff5c16a419bc9633b44e53ab, type: 2}
   nodeButton: {fileID: 1607214399}
   nodeImage: {fileID: 486225531}
   imageTransform: {fileID: 486225529}
@@ -7680,7 +7680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7743,7 +7743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeButton: {fileID: 1740898511}
   nodeImage: {fileID: 1915464641}
   imageTransform: {fileID: 1915464640}
@@ -7945,7 +7945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8283,7 +8283,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851911634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -8380,7 +8380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 382b2422769190d498659a8469c6a68a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8723,7 +8723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
   nodeButton: {fileID: 1321309646}
   nodeImage: {fileID: 1277986953}
   imageTransform: {fileID: 1277986951}
@@ -8967,7 +8967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: c8e4ce1e05139464eae109fbb1582713, type: 2}
   nodeButton: {fileID: 1443803139}
   nodeImage: {fileID: 1084517268}
   imageTransform: {fileID: 1084517267}
@@ -9824,7 +9824,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9957,7 +9957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: 4ce5f16e815707d49874bcc7d3e933a4, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
   nodeButton: {fileID: 1240390955}
   nodeImage: {fileID: 1514097553}
   imageTransform: {fileID: 1514097551}
@@ -10153,7 +10153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 1918945938}
   nodeImage: {fileID: 1849671615}
   imageTransform: {fileID: 1849671613}
@@ -10371,7 +10371,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10655,7 +10655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a14a748304379d49b3e3b1bce864727, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10786,7 +10786,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11247,6 +11247,7 @@ MonoBehaviour:
   madeBy: {fileID: 1089406945}
   logo: {fileID: 2025648832}
   butonsGroup: {fileID: 184377083}
+  butonsGroup2: {fileID: 1082531880}
 --- !u!4 &1123512035
 Transform:
   m_ObjectHideFlags: 0
@@ -11482,7 +11483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12110,7 +12111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 382b2422769190d498659a8469c6a68a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12739,7 +12740,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12899,7 +12900,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a14a748304379d49b3e3b1bce864727, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13496,7 +13497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 990036912}
   nodeImage: {fileID: 543127649}
   imageTransform: {fileID: 543127647}
@@ -13761,7 +13762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13919,7 +13920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: d06890601456938459368886295509a8, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeButton: {fileID: 513671222}
   nodeImage: {fileID: 75414971}
   imageTransform: {fileID: 75414969}
@@ -13981,7 +13982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 1449606918}
   nodeImage: {fileID: 1863687216}
   imageTransform: {fileID: 1863687214}
@@ -15322,7 +15323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 972a7f2507f5f0f4dae28d43c5aa65a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15484,7 +15485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
   nodeButton: {fileID: 1856773929}
   nodeImage: {fileID: 1960053371}
   imageTransform: {fileID: 1960053369}
@@ -16937,7 +16938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 527571219}
   nodeImage: {fileID: 1071133012}
   imageTransform: {fileID: 1071133010}
@@ -17603,7 +17604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: c8e4ce1e05139464eae109fbb1582713, type: 2}
   nodeButton: {fileID: 1439143823}
   nodeImage: {fileID: 1285784550}
   imageTransform: {fileID: 1285784548}
@@ -17905,6 +17906,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 83d88a6d1fe250441958e690b6751f9d, type: 2}
   - {fileID: 11400000, guid: 016ef4e30c082d84e952ebdd2d6e176a, type: 2}
   - {fileID: 11400000, guid: 368e52e85cf31da458a8d7a480ee77e4, type: 2}
+  - {fileID: 11400000, guid: fb0442a02157c2142aab2aa09f67462e, type: 2}
+  - {fileID: 11400000, guid: 725d4345f658abe4b8bcbd5d55591223, type: 2}
   startingPoints:
   - {fileID: 0}
   - {fileID: 958533214}
@@ -18618,7 +18621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
   nodeButton: {fileID: 1565590204}
   nodeImage: {fileID: 514531371}
   imageTransform: {fileID: 514531369}
@@ -18918,7 +18921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeButton: {fileID: 1320786931}
   nodeImage: {fileID: 765631794}
   imageTransform: {fileID: 765631792}
@@ -19015,7 +19018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19296,7 +19299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19649,7 +19652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6dda5c5f8834364899089588b31811b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19819,7 +19822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: d06890601456938459368886295509a8, type: 2}
   nodeButton: {fileID: 1534466720}
   nodeImage: {fileID: 1221222790}
   imageTransform: {fileID: 1221222788}
@@ -19949,7 +19952,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c6dda5c5f8834364899089588b31811b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20499,7 +20502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeButton: {fileID: 939488784}
   nodeImage: {fileID: 1373217604}
   imageTransform: {fileID: 1373217602}
@@ -20596,7 +20599,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066b97282d77c4097ec927dcb957d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20834,7 +20837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
   nodeButton: {fileID: 1973001597}
   nodeImage: {fileID: 188053493}
   imageTransform: {fileID: 188053491}
@@ -21017,7 +21020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: d06890601456938459368886295509a8, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 1762828207}
   nodeImage: {fileID: 853691680}
   imageTransform: {fileID: 853691678}
@@ -21134,7 +21137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   nodeButton: {fileID: 1436466284}
   nodeImage: {fileID: 824037705}
   imageTransform: {fileID: 824037704}
@@ -21209,7 +21212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a14a748304379d49b3e3b1bce864727, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

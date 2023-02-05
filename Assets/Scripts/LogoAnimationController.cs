@@ -14,12 +14,12 @@ public class LogoAnimationController : MonoBehaviour
     [SerializeField] TextMeshProUGUI madeBy;
     [SerializeField] Image logo;
 
-    [SerializeField] CanvasGroup butonsGroup;
+    [SerializeField] CanvasGroup butonsGroup, butonsGroup2;
 
     void Start()
     {
-        // StartCoroutine(FirstAnimation());
-        ShowNumbers();
+        StartCoroutine(FirstAnimation());
+        //ShowNumbers();
     }
 
     IEnumerator FirstAnimation()
@@ -29,6 +29,8 @@ public class LogoAnimationController : MonoBehaviour
         madeBy.DOFade(0, 0.001f);
         butonsGroup.alpha = 0;
         butonsGroup.gameObject.SetActive(false);
+        butonsGroup2.alpha = 0;
+        butonsGroup2.gameObject.SetActive(false);
 
         logo.gameObject.SetActive(true);
         madeBy.gameObject.SetActive(true);
@@ -54,6 +56,8 @@ public class LogoAnimationController : MonoBehaviour
     {
         butonsGroup.gameObject.SetActive(true);
         butonsGroup.DOFade(1, 1f).OnComplete(() => levelSelectButtonsManager.ToggleLock(false));
+        butonsGroup2.gameObject.SetActive(true);
+        butonsGroup2.DOFade(1, 1f).OnComplete(() => levelSelectButtonsManager.ToggleLock(false));
     }
 
 }
