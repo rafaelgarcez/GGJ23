@@ -7,8 +7,10 @@ public class SaveLevelInfo : MonoBehaviour
 {
 #if UNITY_EDITOR
 
+    [SerializeField] NodeInfo rock;
     [SerializeField] NodeController nodeController;
     [SerializeField] LevelInfo levelInfo;
+
 
     [Button]
     void SaveLevelInfoNodes()
@@ -31,6 +33,16 @@ public class SaveLevelInfo : MonoBehaviour
     {
         for (int i = 0; i < 40; i++)
         {
+            nodeController.NodeList[i].UpdateNodeImage();
+        }
+    }
+
+    [Button]
+    void FillWithRocks()
+    {
+        for (int i = 0; i < 40; i++)
+        {
+            nodeController.NodeList[i].currentNodeInfo = rock;
             nodeController.NodeList[i].UpdateNodeImage();
         }
     }
