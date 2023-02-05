@@ -25,6 +25,6 @@ MonoBehaviour:
       Entry: 6
       Data: 
   nodeSprite: {fileID: 21300000, guid: dc66658f03c56df4285604562b3bebd4, type: 3}
-  isImmovable: 1
+  isImmovable: 0
   isEndNode: 1
   endNodeEntry: 0

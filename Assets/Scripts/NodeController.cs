@@ -73,19 +73,19 @@ public class NodeController : MonoBehaviour
 
         if (startNode.currentNodeInfo == null)
         {
-            Debug.Log("Node on start is null. END");
+            //   Debug.Log("Node on start is null. END");
             gameFlow.ToggleCanClick(true);
             return;
         }
 
         if (startNode.currentNodeInfo.ContaisEntry(0))
         {
-            Debug.Log("Node on start contais entry 0. CONTINUE! ");
+            //  Debug.Log("Node on start contais entry 0. CONTINUE! ");
             FlowCheck(startNode.NeighbourList[startNode.currentNodeInfo.ReturnNeighbourIndex(0)], startNode.currentNodeInfo.ReturnNeighbourIndex(0));
         }
         else
         {
-            Debug.Log("Node on start does not contais entry 0. END");
+            //  Debug.Log("Node on start does not contais entry 0. END");
             gameFlow.ToggleCanClick(true);
             return;
         }
@@ -96,19 +96,19 @@ public class NodeController : MonoBehaviour
         checkingSecondPath = true;
         if (secondStartNode.currentNodeInfo == null)
         {
-            Debug.Log("Second Node on start is null. END");
+            // Debug.Log("Second Node on start is null. END");
             gameFlow.ToggleCanClick(true);
             return;
         }
 
         if (secondStartNode.currentNodeInfo.ContaisEntry(0))
         {
-            Debug.Log("Second Node on start contais entry 0. CONTINUE! ");
+            //  Debug.Log("Second Node on start contais entry 0. CONTINUE! ");
             FlowCheck(secondStartNode.NeighbourList[secondStartNode.currentNodeInfo.ReturnNeighbourIndex(0)], secondStartNode.currentNodeInfo.ReturnNeighbourIndex(0));
         }
         else
         {
-            Debug.Log("Second Node on start does not contais entry 0. END");
+            //  Debug.Log("Second Node on start does not contais entry 0. END");
             gameFlow.ToggleCanClick(true);
             return;
         }
@@ -119,39 +119,54 @@ public class NodeController : MonoBehaviour
     {
         byte entryIndex = GetEntryIndex(exitIndex);
 
-        Debug.Log("Node " + currentNode.name + " reached and entered on index: " + exitIndex);
+        //Debug.Log("Node " + currentNode.name + " reached and entered on index: " + exitIndex);
+
+        if (currentNode == null)
+        {
+            gameFlow.ToggleCanClick(true);
+            return;
+        }
+
 
         if (currentNode.currentNodeInfo == null)
         {
-            Debug.Log("Node info is null. END");
+            //   Debug.Log("Node info is null. END");
             gameFlow.ToggleCanClick(true);
             return;
         }
 
         if (currentNode.currentNodeInfo.CheckIfIsImmovable())
         {
-            if (currentNode.currentNodeInfo.CheckIfIsEndNode())
-            {
-                Debug.Log("is end node!");
-                EndReached();
-                return;
-            }
-
-            Debug.Log("is immovable ! END");
+            // Debug.Log("is immovable ! END");
             gameFlow.ToggleCanClick(true);
             return;
         }
 
+        if (currentNode.currentNodeInfo.CheckIfIsEndNode())
+        {
+            if (currentNode.currentNodeInfo.GetEndEntryIndex() == entryIndex)
+            {
+                // Debug.Log("is end node!");
+                EndReached();
+                return;
+            }
+            else
+            {
+                // Debug.Log("exit node does not have entry om " + entryIndex + ". ENDD: ");
+                gameFlow.ToggleCanClick(true);
+                return;
+            }
+        }
+
         if (currentNode.currentNodeInfo.ContaisEntry(entryIndex))
         {
-            Debug.Log("current node contais entry on " + entryIndex + ". CONTINUE!");
+            // Debug.Log("current node contais entry on " + entryIndex + ". CONTINUE!");
             FlowCheck(currentNode.NeighbourList[currentNode.currentNodeInfo.ReturnNeighbourIndex(entryIndex)], currentNode.currentNodeInfo.ReturnNeighbourIndex(entryIndex));
         }
         else
         {
-            Debug.Log("current node does not contais entry on " + entryIndex + ". ENDD: ");
+            //  Debug.Log("current node does not contais entry on " + entryIndex + ". ENDD: ");
             gameFlow.ToggleCanClick(true);
-
         }
 
     }

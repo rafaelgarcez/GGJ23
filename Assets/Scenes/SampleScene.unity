@@ -271,7 +271,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18033386}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 212352694}
   nodeImage: {fileID: 427847496}
   imageTransform: {fileID: 427847494}
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41311341}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1d4a271488e27145a211c188963367c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3039f45a3ff780145a94ebcce7a674c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e1cacae9fba3a249a5fa8497fe4e8c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -747,7 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 1002244963}
   nodeImage: {fileID: 2125511229}
   imageTransform: {fileID: 2125511227}
@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 42adea36a1195db40a54fb930ba2b1d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2590,7 +2590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nodeController: {fileID: 1758900793}
-  levelInfo: {fileID: 11400000, guid: e86d606803a562b4e81291657f6093a5, type: 2}
+  levelInfo: {fileID: 11400000, guid: 782d41cf9c3738a48aed160d07ca5def, type: 2}
 --- !u!1 &395354167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,7 +3503,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427847493}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3557,7 +3557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 0}
+  currentNodeInfo: {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
   nodeButton: {fileID: 335559353}
   nodeImage: {fileID: 1087602451}
   imageTransform: {fileID: 1087602449}
@@ -3703,7 +3703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 654500017}
   nodeImage: {fileID: 18033389}
   imageTransform: {fileID: 18033387}
@@ -4432,7 +4432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 42adea36a1195db40a54fb930ba2b1d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5129,7 +5129,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619435142}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 1204517221}
   nodeImage: {fileID: 917082487}
   imageTransform: {fileID: 917082485}
@@ -7945,7 +7945,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917082484}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9073,7 +9073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 1918945938}
   nodeImage: {fileID: 1849671615}
   imageTransform: {fileID: 1849671613}
@@ -9625,7 +9625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 382b2422769190d498659a8469c6a68a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc66658f03c56df4285604562b3bebd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11179,7 +11179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: b0fd4fae0f9d7664690cdf92bf7bd9e1, type: 2}
+  currentNodeInfo: {fileID: 0}
   nodeButton: {fileID: 2017720130}
   nodeImage: {fileID: 41311344}
   imageTransform: {fileID: 41311342}
@@ -12453,7 +12453,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373217601}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -12466,7 +12466,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 972a7f2507f5f0f4dae28d43c5aa65a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc66658f03c56df4285604562b3bebd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12624,7 +12624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  currentNodeInfo: {fileID: 11400000, guid: 67b88da8e369a484ebfacf37b3aee498, type: 2}
   nodeButton: {fileID: 513671222}
   nodeImage: {fileID: 75414971}
   imageTransform: {fileID: 75414969}
@@ -13586,7 +13586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 42adea36a1195db40a54fb930ba2b1d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14054,7 +14054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 0}
+  currentNodeInfo: {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
   nodeButton: {fileID: 1856773929}
   nodeImage: {fileID: 1960053371}
   imageTransform: {fileID: 1960053369}
@@ -16467,9 +16467,10 @@ MonoBehaviour:
   cameraMovementController: {fileID: 1123512036}
   nodeController: {fileID: 1758900793}
   levelInfoList:
+  - {fileID: 11400000, guid: dccdaf7db709cfa4aae03e8d4ce04885, type: 2}
   - {fileID: 11400000, guid: 782d41cf9c3738a48aed160d07ca5def, type: 2}
-  - {fileID: 11400000, guid: 1b90315c04ad5824e8d5e664e37048c3, type: 2}
   - {fileID: 11400000, guid: e86d606803a562b4e81291657f6093a5, type: 2}
+  - {fileID: 11400000, guid: 404dfc459bf07aa4eba30fcac0d9ea96, type: 2}
   startingPoints:
   - {fileID: 0}
   - {fileID: 958533214}
@@ -17557,7 +17558,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849671612}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -18491,7 +18492,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960053368}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -18504,7 +18505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 87eeb7b5da61dbc4482a93835678dbc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19054,7 +19055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFlow: {fileID: 1758900795}
   nodeController: {fileID: 1758900793}
-  currentNodeInfo: {fileID: 0}
+  currentNodeInfo: {fileID: 11400000, guid: b2de5665615146a479c0ceed998943f2, type: 2}
   nodeButton: {fileID: 939488784}
   nodeImage: {fileID: 1373217604}
   imageTransform: {fileID: 1373217602}
@@ -19751,7 +19752,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125511226}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -19764,7 +19765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 704a410937e06544aa90f03ba6e4ddfb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 42adea36a1195db40a54fb930ba2b1d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -16,13 +16,14 @@ public class CameraMovementController : MonoBehaviour
 
     public void LevelSelected()
     {
-        cameraTransform.DOMoveY(tree, 2).SetEase(Ease.OutFlash);
+        //  cameraTransform.DOMoveY(tree, 2).SetEase(Ease.OutFlash);
         StartCoroutine(MoveToGame());
     }
 
     IEnumerator MoveToGame()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(0.1f);
+        //  yield return new WaitForSeconds(4);
         cameraTransform.DOMoveY(game, 2).SetEase(Ease.OutFlash).OnComplete(() => gameFlow.ToggleCanClick(true));
     }
 
@@ -33,18 +34,19 @@ public class CameraMovementController : MonoBehaviour
 
     IEnumerator LevelComplete()
     {
-
-
         yield return new WaitForSeconds(0.1f);
-        sfxController.PlayFinished();
-        yield return new WaitForSeconds(0.5f);
-        cameraTransform.DOMoveY(tree, 2).SetEase(Ease.OutFlash);
-        yield return new WaitForSeconds(2f);
-        gameFlow.ShowHealthyTree();
-        levelSelectButtonsManager.ToggleWellDone(true);
-        levelSelectButtonsManager.AnimateWellDone();
-        sfxController.PlayTreeReveal();
-        yield return new WaitForSeconds(2f);
+        /*
+              
+                sfxController.PlayFinished();
+                yield return new WaitForSeconds(0.5f);
+                cameraTransform.DOMoveY(tree, 2).SetEase(Ease.OutFlash);
+                yield return new WaitForSeconds(2f);
+                gameFlow.ShowHealthyTree();
+                levelSelectButtonsManager.ToggleWellDone(true);
+                levelSelectButtonsManager.AnimateWellDone();
+                sfxController.PlayTreeReveal();
+                yield return new WaitForSeconds(2f);
+                */
         cameraTransform.DOMoveY(logo, 2).SetEase(Ease.OutFlash).OnComplete(() =>
         {
             levelSelectButtonsManager.ToggleLock(false);

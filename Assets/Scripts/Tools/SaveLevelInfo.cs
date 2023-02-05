@@ -11,7 +11,7 @@ public class SaveLevelInfo : MonoBehaviour
     [SerializeField] LevelInfo levelInfo;
 
     [Button]
-    void PopulateLevelInfoNodes()
+    void SaveLevelInfoNodes()
     {
         Debug.Log("PopulateLevelInfoNodes Start");
         levelInfo.nodeInfosList = null;
@@ -36,7 +36,7 @@ public class SaveLevelInfo : MonoBehaviour
     }
 
     [Button]
-    void BuildLevelOnInfo()
+    void ShowLevelOnInfo()
     {
         Debug.Log("BuildLevelOnInfo Start");
 
@@ -47,7 +47,11 @@ public class SaveLevelInfo : MonoBehaviour
             nodeController.NodeList[i].currentNodeInfo = levelInfo.nodeInfosList[i];
         }
 
+
+        ShowNodes();
         Debug.Log("BuildLevelOnInfo End");
+
+
     }
 
 

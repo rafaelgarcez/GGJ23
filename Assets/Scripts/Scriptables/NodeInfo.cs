@@ -36,6 +36,11 @@ public class NodeInfo : SerializedScriptableObject
         return EntriesAndExits[entry];
     }
 
+    public byte GetEndEntryIndex()
+    {
+        return endNodeEntry;
+    }
+
 }
 
 
