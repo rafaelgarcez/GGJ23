@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   NumberOfExits: 1
-  TreeName: BigBush
+  TreeName: 01
   StartNodeIndex: 2
   SecondStartNodeIndex: 0
   SecondTreeName: 
@@ -31,31 +31,31 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: ef7d467865004684eab873271beb130f, type: 2}
-  - {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
   - {fileID: 0}
-  - {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 11400000, guid: b0fd4fae0f9d7664690cdf92bf7bd9e1, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b0d06bfbff5c16a419bc9633b44e53ab, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  - {fileID: 11400000, guid: d06890601456938459368886295509a8, type: 2}
+  - {fileID: 11400000, guid: b0d06bfbff5c16a419bc9633b44e53ab, type: 2}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 646e0044f73bc0943a65bc6b04b25563, type: 2}
-  - {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: aaedcb8cb9b50a0478a77d2bd6bee8f0, type: 2}
+  - {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
+  - {fileID: 11400000, guid: b0d06bfbff5c16a419bc9633b44e53ab, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

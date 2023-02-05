@@ -8,6 +8,7 @@ using DG.Tweening;
 public class LogoAnimationController : MonoBehaviour
 {
 
+    [SerializeField] GameObject thanks;
     [SerializeField] LevelSelectButtonsManager levelSelectButtonsManager;
     [SerializeField] TextMeshProUGUI gameName;
 
@@ -15,6 +16,7 @@ public class LogoAnimationController : MonoBehaviour
     [SerializeField] Image logo;
 
     [SerializeField] CanvasGroup butonsGroup, butonsGroup2;
+    public bool ShowThanks;
 
     void Start()
     {
@@ -49,6 +51,11 @@ public class LogoAnimationController : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         ShowNumbers();
+
+        yield return new WaitForSeconds(0.2f);
+
+        if (ShowThanks)
+            thanks.SetActive(true);
 
     }
 

@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class GameFlow : MonoBehaviour
 {
+    [SerializeField] PlayerProgressionController progressionController;
     [SerializeField] TreeController treeController;
     [SerializeField] CameraMovementController cameraMovementController;
     [SerializeField] NodeController nodeController;
@@ -14,6 +15,7 @@ public class GameFlow : MonoBehaviour
     // [SerializeField] int index;
     LevelInfo currentLevelInfo;
 
+    int currentLevelIndex;
     bool canClick;
 
     private void Start()
@@ -30,6 +32,7 @@ public class GameFlow : MonoBehaviour
     public void StageSelected(int index)
     {
         Debug.Log("StageSelected: " + index);
+        currentLevelIndex = index;
         BuildStage(levelInfoList[index]);
     }
     void BuildStage(LevelInfo info)
@@ -61,7 +64,9 @@ public class GameFlow : MonoBehaviour
     public void LevelCleared()
     {
         Debug.Log("Level cleared!");
+        progressionController.NewLevelUnlocked(currentLevelIndex + 2);
         cameraMovementController.StartLevelCompleteSequence();
+
     }
 
     public void ShowHealthyTree()

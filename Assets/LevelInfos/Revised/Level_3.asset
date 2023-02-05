@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   NumberOfExits: 1
-  TreeName: Bush
+  TreeName: BigBush
   StartNodeIndex: 2
   SecondStartNodeIndex: 0
   SecondTreeName: 
@@ -33,19 +33,19 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 11400000, guid: bec897f4c1ae39040bee5d4b77887049, type: 2}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: b2de5665615146a479c0ceed998943f2, type: 2}
   - {fileID: 0}
+  - {fileID: 11400000, guid: b0d06bfbff5c16a419bc9633b44e53ab, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: ece1f8a4317a5ac448be5326b00ddba8, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

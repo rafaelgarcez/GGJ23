@@ -51,4 +51,28 @@ public class LevelSelectButtonsManager : MonoBehaviour
         cameraMovementController.LevelSelected();
     }
 
+    public void LockButtons(int maxLevelReached)
+    {
+        if (maxLevelReached >= 10)
+            return;
+
+        for (int i = 1; i < 10; i++)
+        {
+            if (i > maxLevelReached - 1)
+            {
+                LevelSelectButtons[i].interactable = false;
+                LevelSelectNumbers[i].DOFade(0.5f, 0.001f);
+            }
+
+        }
+    }
+
+    public void UnlockButton(int index)
+    {
+        if (index + 1 > LevelSelectButtons.Length)
+            return;
+
+        LevelSelectButtons[index].interactable = true;
+        LevelSelectNumbers[index].DOFade(1, 0.001f);
+    }
 }

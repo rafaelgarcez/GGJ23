@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   NumberOfExits: 1
-  TreeName: BigBush
+  TreeName: 00
   StartNodeIndex: 2
   SecondStartNodeIndex: 0
   SecondTreeName: 
